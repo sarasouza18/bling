@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 
 class BlingService
 {
-    public function createInvoice(Request $request){
+    public function createInvoice($request){
 
         $filter = new BlingFilter();
         $proxy = new BlingProxy();

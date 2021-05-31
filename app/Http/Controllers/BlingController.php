@@ -4,18 +4,19 @@
 namespace App\Http\Controllers;
 
 
-use Illuminate\Http\Request;
+use App\Http\Requests\BlingRequest;
 use App\Http\Services\BlingService;
+use Symfony\Component\HttpFoundation\Response;
 
 class BlingController extends Controller
 {
 
-    public function createInvoice(Request $request){
+    public function createInvoice(BlingRequest $request){
 
         $invoice = new BlingService;
-        $invoice->createInvoice($request);
+        $response = $invoice->createInvoice($request);
 
-        return $invoice;
+        return Response::create($response);
     }
 
 }

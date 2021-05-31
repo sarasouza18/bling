@@ -1,0 +1,70 @@
+[2021-05-31 22:57:13] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Support/Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /home/sara/Documentos/bling/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2021-05-31 22:57:57] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Support/Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /home/sara/Documentos/bling/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2021-05-31 22:59:24] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Support/Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /home/sara/Documentos/bling/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2021-05-31 23:00:05] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Support/Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /home/sara/Documentos/bling/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
+[2021-05-31 23:01:02] production.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Support/Collection.php(685): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(212): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(320): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /home/sara/Documentos/bling/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /home/sara/Documentos/bling/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 

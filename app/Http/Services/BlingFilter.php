@@ -13,14 +13,14 @@ class BlingFilter
                 <pedido>
                     <cliente>
                         <nome>'.$dataCustomer['name'].'</nome>
-                        <tipoPessoa>'.$dataCustomer['person_type'].'</tipoPessoa>
-                        <cnpj>'.$dataCustomer['cpf_cnpj'].'</cnpj>
-                        <ie_rg>'.$dataCustomer['ie_rg'].'</ie_rg>
+                        <tipoPessoa>'.$dataCustomer['type'].'</tipoPessoa>
+                        <cnpj>'.$dataCustomer['document'].'</cnpj>
+                        <ie_rg>'.$dataCustomer['additional_document'].'</ie_rg>
                         <endereco>'.$dataCustomer['address'].'</endereco>
                         <numero>'.$dataCustomer['number'].'</numero>
                         <complemento>'.$dataCustomer['complement'].'</complemento>
                         <bairro>'.$dataCustomer['neighborhood'].'</bairro>
-                        <cep>'.$dataCustomer['cep'].'</cep>
+                        <cep>'.$dataCustomer['zipcode'].'</cep>
                         <cidade>'.$dataCustomer['city'].'</cidade>
                         <uf>'.$dataCustomer['country'].'</uf>
                         <fone>'.$dataCustomer['phone'].'</fone>
@@ -28,15 +28,15 @@ class BlingFilter
                     </cliente>
                     <transporte>
                         <transportadora>'.$dataFreight['name'].'</transportadora>
-                        <cpf_cnpj>'.$dataFreight['cnpj'].'</cpf_cnpj>
-                        <ie_rg>'.$dataFreight['ie'].'</ie_rg>
+                        <cpf_cnpj>'.$dataFreight['document'].'</cpf_cnpj>
+                        <ie_rg>'.$dataFreight['additional_document'].'</ie_rg>
                         <endereco>'.$dataFreight['address'].', '.$dataFreight['number'].'</endereco>
                         <cidade>'.$dataFreight['city'].'</cidade>
                         <uf>'.$dataFreight['state'].'</uf>
                         <placa></placa>
                         <uf_veiculo></uf_veiculo>
                         <tipo_frete>R</tipo_frete>
-                        <qtde_volumes>'.$dataOrder['qtd'].'</qtde_volumes>
+                        <qtde_volumes>'.$dataOrder['quantity'].'</qtde_volumes>
                         <especie>Volumes</especie>
                         <numero>'.$dataFreight['number'].'</numero>
                         <peso_bruto>'.$dataFreight['weight'].'</peso_bruto>
@@ -57,19 +57,15 @@ class BlingFilter
                                 <servico>'.$dataFreight['name'].' - CONTRATO</servico>
                                 <codigoRastreamento></codigoRastreamento>
                             </volume>
-                            <volume>
-                                <servico>'.$dataFreight['name'].' - CONTRATO</servico>
-                                <codigoRastreamento></codigoRastreamento>
-                            </volume>
                         </volumes>
                     </transporte>
                     <itens>
                         '.$dataItems.'
                     </itens>
-                    <vlr_frete>'.$dataOrder['name'].'</vlr_frete>
-                    <vlr_seguro>'.$dataOrder['name'].'</vlr_seguro>
-                    <vlr_despesas>'.$dataOrder['name'].'</vlr_despesas>
-                    <vlr_desconto>'.$dataOrder['name'].'</vlr_desconto>
+                    <vlr_frete>'.$dataOrder['price_freight'].'</vlr_frete>
+                    <vlr_seguro>'.$dataOrder['price_secure'].'</vlr_seguro>
+                    <vlr_despesas>'.$dataOrder['price'].'</vlr_despesas>
+                    <vlr_desconto>'.$dataOrder['discount'].'</vlr_desconto>
                     <obs>'.$dataOrder['name'].'</obs>
                 </pedido>';
         return $formatXml;
